@@ -1,0 +1,990 @@
+Last login: Wed Dec 15 21:31:56 on console
+tejako3@C02D705XMD6M ~ % cd /Users/tejako3/Desktop/Desktop\ -\ C02D705XMD6M\ \(2\)
+tejako3@C02D705XMD6M Desktop - C02D705XMD6M (2) % cd /Users/tejako3/Desktop/Desktop\ -\ C02D705XMD6M\ \(2\)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/Ecommerce_application
+tejako3@C02D705XMD6M Ecommerce_application % mvn package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.example:auth-course >-----------------------
+[INFO] Building auth-course 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ auth-course ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ auth-course ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 20 source files to /Users/tejako3/Desktop/Desktop - C02D705XMD6M (2)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/Ecommerce_application/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ auth-course ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/tejako3/Desktop/Desktop - C02D705XMD6M (2)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/Ecommerce_application/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ auth-course ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /Users/tejako3/Desktop/Desktop - C02D705XMD6M (2)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/Ecommerce_application/target/test-classes
+[INFO] /Users/tejako3/Desktop/Desktop - C02D705XMD6M (2)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/Ecommerce_application/src/test/java/com/example/demo/Controllers/UserControllerTest.java: Some input files use or override a deprecated API.
+[INFO] /Users/tejako3/Desktop/Desktop - C02D705XMD6M (2)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/Ecommerce_application/src/test/java/com/example/demo/Controllers/UserControllerTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ auth-course ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.22.2/surefire-junit4-2.22.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.22.2/surefire-junit4-2.22.2.pom (3.1 kB at 2.5 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.22.2/surefire-providers-2.22.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.22.2/surefire-providers-2.22.2.pom (2.5 kB at 6.5 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.22.2/surefire-junit4-2.22.2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.22.2/surefire-junit4-2.22.2.jar (85 kB at 132 kB/s)
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.example.demo.SareetaApplicationTests
+2021-12-15T21:39:42.497+0530 INFO Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.SareetaApplicationTests], using SpringBootContextLoader
+2021-12-15T21:39:42.502+0530 INFO Could not detect default resource locations for test class [com.example.demo.SareetaApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-12-15T21:39:42.503+0530 INFO Could not detect default configuration classes for test class [com.example.demo.SareetaApplicationTests]: SareetaApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-12-15T21:39:42.571+0530 INFO Found @SpringBootConfiguration com.example.demo.SareetaApplication for test class com.example.demo.SareetaApplicationTests
+2021-12-15T21:39:42.631+0530 INFO Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+2021-12-15T21:39:42.647+0530 INFO Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1d1f7216, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@423e4cbb, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6e16b8b5, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@43b4fe19, org.springframework.test.context.support.DirtiesContextTestExecutionListener@25ddbbbb, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1536602f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4ebea12c, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@2a1edad4, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@6256ac4f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@44c79f32, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7fcbe147, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@235f4c10, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@743cb8e0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@c7a975a]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.5.RELEASE)
+
+2021-12-15T21:39:42.807+0530 INFO Starting SareetaApplicationTests on C02D705XMD6M with PID 1364 (started by tejako3 in /Users/tejako3/Desktop/Desktop - C02D705XMD6M (2)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/Ecommerce_application)
+2021-12-15T21:39:42.808+0530 DEBUG Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-12-15T21:39:42.809+0530 INFO No active profile set, falling back to default profiles: default
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/Users/tejako3/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.11.2/log4j-slf4j-impl-2.11.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Users/tejako3/.m2/repository/org/slf4j/slf4j-log4j12/1.7.30/slf4j-log4j12-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+2021-12-15T21:39:43.203+0530 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-12-15T21:39:43.241+0530 INFO Finished Spring Data repository scanning in 34ms. Found 4 repository interfaces.
+2021-12-15T21:39:43.559+0530 INFO Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$49bce7c5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-15T21:39:43.681+0530 INFO HikariPool-1 - Starting...
+2021-12-15T21:39:43.784+0530 INFO HikariPool-1 - Start completed.
+2021-12-15T21:39:43.826+0530 INFO HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-12-15T21:39:43.874+0530 INFO HHH000412: Hibernate Core {5.3.10.Final}
+2021-12-15T21:39:43.875+0530 INFO HHH000206: hibernate.properties not found
+2021-12-15T21:39:43.976+0530 INFO HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-15T21:39:44.071+0530 INFO HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-12-15T21:39:44.544+0530 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-15T21:39:44.947+0530 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1aee6983, org.springframework.security.web.context.SecurityContextPersistenceFilter@7253c53, org.springframework.security.web.header.HeaderWriterFilter@6fb219dd, org.springframework.web.filter.CorsFilter@3adeca1f, org.springframework.security.web.authentication.logout.LogoutFilter@7b33deed, com.example.demo.WebSecurity.JWTAuthFilter@3f62d56, com.example.demo.WebSecurity.JWTAuthVerificationFilter@2d41bb5a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1f95158a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@48188d23, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@448a6d00, org.springframework.security.web.session.SessionManagementFilter@28ceb25e, org.springframework.security.web.access.ExceptionTranslationFilter@4be3de36, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@42028589]
+2021-12-15T21:39:45.253+0530 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-15T21:39:45.290+0530 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-15T21:39:45.492+0530 INFO Started SareetaApplicationTests in 2.823 seconds (JVM running for 3.617)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.527 s - in com.example.demo.SareetaApplicationTests
+[INFO] Running com.example.demo.Controllers.CartControllerTests
+2021-12-15T21:39:45.584+0530 INFO Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.Controllers.CartControllerTests], using DelegatingSmartContextLoader
+2021-12-15T21:39:45.584+0530 INFO Could not detect default resource locations for test class [com.example.demo.Controllers.CartControllerTests]: no resource found for suffixes {-context.xml}.
+2021-12-15T21:39:45.585+0530 INFO Could not detect default configuration classes for test class [com.example.demo.Controllers.CartControllerTests]: CartControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-12-15T21:39:45.585+0530 INFO Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+2021-12-15T21:39:45.586+0530 INFO Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2fafa9bf, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@53fd59d4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@43c3354, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@260fffec, org.springframework.test.context.support.DirtiesContextTestExecutionListener@743f58c3, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4d359c69, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@28f6a008, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@71dfca65, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@7fa86ddd, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1e9f6095, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3f465ae, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@c770b57, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@308d4981, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@55731ccd]
+2021-12-15T21:39:45.745+0530 INFO Item removed to the user's cart successfully.
+2021-12-15T21:39:45.751+0530 INFO Item added to the user's cart successfully.
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.156 s - in com.example.demo.Controllers.CartControllerTests
+[INFO] Running com.example.demo.Controllers.UserControllerTest
+2021-12-15T21:39:45.753+0530 INFO Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.Controllers.UserControllerTest], using DelegatingSmartContextLoader
+2021-12-15T21:39:45.754+0530 INFO Could not detect default resource locations for test class [com.example.demo.Controllers.UserControllerTest]: no resource found for suffixes {-context.xml}.
+2021-12-15T21:39:45.754+0530 INFO Could not detect default configuration classes for test class [com.example.demo.Controllers.UserControllerTest]: UserControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-12-15T21:39:45.754+0530 INFO Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+2021-12-15T21:39:45.755+0530 INFO Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2ded31cc, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@47b71556, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6fb2b972, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5fa3df, org.springframework.test.context.support.DirtiesContextTestExecutionListener@44f88149, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3b1a3125, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4199761d, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@3ca564aa, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@3cd758be, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@562ec518, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5c8d685e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4b1ad751, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4d0e6424, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6da86e98]
+2021-12-15T21:39:45.769+0530 INFO Received get request for username: test
+2021-12-15T21:39:45.771+0530 INFO Received get request
+2021-12-15T21:39:45.773+0530 INFO User name set with 
+2021-12-15T21:39:45.774+0530 INFO User created. UserName: test
+2021-12-15T21:39:45.776+0530 INFO User name set with 
+2021-12-15T21:39:45.776+0530 INFO User created. UserName: test
+[ERROR] Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.024 s <<< FAILURE! - in com.example.demo.Controllers.UserControllerTest
+[ERROR] checkPasswordSpecification(com.example.demo.Controllers.UserControllerTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: expected:<400> but was:<200>
+	at com.example.demo.Controllers.UserControllerTest.checkPasswordSpecification(UserControllerTest.java:74)
+
+[INFO] Running com.example.demo.Controllers.OrderControllerTest
+2021-12-15T21:39:45.812+0530 INFO Order created successfully for username: test
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in com.example.demo.Controllers.OrderControllerTest
+2021-12-15T21:39:45.819+0530 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-15T21:39:45.820+0530 INFO Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-15T21:39:45.821+0530 INFO HikariPool-1 - Shutdown initiated...
+2021-12-15T21:39:45.824+0530 INFO HikariPool-1 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   UserControllerTest.checkPasswordSpecification:74 expected:<400> but was:<200>
+[INFO] 
+[ERROR] Tests run: 9, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.559 s
+[INFO] Finished at: 2021-12-15T21:39:46+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.22.2:test (default-test) on project auth-course: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/tejako3/Desktop/Desktop - C02D705XMD6M (2)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/Ecommerce_application/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+tejako3@C02D705XMD6M Ecommerce_application % mvn package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.example:auth-course >-----------------------
+[INFO] Building auth-course 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ auth-course ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ auth-course ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ auth-course ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/tejako3/Desktop/Desktop - C02D705XMD6M (2)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/Ecommerce_application/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ auth-course ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ auth-course ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.example.demo.SareetaApplicationTests
+2021-12-15T21:42:26.703+0530 INFO Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.SareetaApplicationTests], using SpringBootContextLoader
+2021-12-15T21:42:26.708+0530 INFO Could not detect default resource locations for test class [com.example.demo.SareetaApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-12-15T21:42:26.708+0530 INFO Could not detect default configuration classes for test class [com.example.demo.SareetaApplicationTests]: SareetaApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-12-15T21:42:26.769+0530 INFO Found @SpringBootConfiguration com.example.demo.SareetaApplication for test class com.example.demo.SareetaApplicationTests
+2021-12-15T21:42:26.815+0530 INFO Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+2021-12-15T21:42:26.826+0530 INFO Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1d1f7216, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@423e4cbb, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6e16b8b5, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@43b4fe19, org.springframework.test.context.support.DirtiesContextTestExecutionListener@25ddbbbb, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1536602f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4ebea12c, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@2a1edad4, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@6256ac4f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@44c79f32, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7fcbe147, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@235f4c10, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@743cb8e0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@c7a975a]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.5.RELEASE)
+
+2021-12-15T21:42:27.007+0530 INFO Starting SareetaApplicationTests on C02D705XMD6M with PID 1437 (started by tejako3 in /Users/tejako3/Desktop/Desktop - C02D705XMD6M (2)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/Ecommerce_application)
+2021-12-15T21:42:27.008+0530 DEBUG Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-12-15T21:42:27.009+0530 INFO No active profile set, falling back to default profiles: default
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/Users/tejako3/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.11.2/log4j-slf4j-impl-2.11.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Users/tejako3/.m2/repository/org/slf4j/slf4j-log4j12/1.7.30/slf4j-log4j12-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+2021-12-15T21:42:27.438+0530 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-12-15T21:42:27.494+0530 INFO Finished Spring Data repository scanning in 50ms. Found 4 repository interfaces.
+2021-12-15T21:42:27.895+0530 INFO Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fcc8f24] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-15T21:42:28.071+0530 INFO HikariPool-1 - Starting...
+2021-12-15T21:42:28.213+0530 INFO HikariPool-1 - Start completed.
+2021-12-15T21:42:28.274+0530 INFO HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-12-15T21:42:28.336+0530 INFO HHH000412: Hibernate Core {5.3.10.Final}
+2021-12-15T21:42:28.337+0530 INFO HHH000206: hibernate.properties not found
+2021-12-15T21:42:28.450+0530 INFO HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-15T21:42:28.561+0530 INFO HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-12-15T21:42:29.109+0530 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-15T21:42:29.600+0530 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c2be147, org.springframework.security.web.context.SecurityContextPersistenceFilter@2d02a066, org.springframework.security.web.header.HeaderWriterFilter@226e95e9, org.springframework.web.filter.CorsFilter@dddcd91, org.springframework.security.web.authentication.logout.LogoutFilter@6ed87ccf, com.example.demo.WebSecurity.JWTAuthFilter@21bd6fd1, com.example.demo.WebSecurity.JWTAuthVerificationFilter@79e9c14, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6fb219dd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@64829470, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@340c7479, org.springframework.security.web.session.SessionManagementFilter@4cbb11e4, org.springframework.security.web.access.ExceptionTranslationFilter@6a013bdd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@556843a5]
+2021-12-15T21:42:29.947+0530 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-15T21:42:29.984+0530 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-15T21:42:30.220+0530 INFO Started SareetaApplicationTests in 3.372 seconds (JVM running for 4.153)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.059 s - in com.example.demo.SareetaApplicationTests
+[INFO] Running com.example.demo.Controllers.CartControllerTests
+2021-12-15T21:42:30.319+0530 INFO Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.Controllers.CartControllerTests], using DelegatingSmartContextLoader
+2021-12-15T21:42:30.320+0530 INFO Could not detect default resource locations for test class [com.example.demo.Controllers.CartControllerTests]: no resource found for suffixes {-context.xml}.
+2021-12-15T21:42:30.321+0530 INFO Could not detect default configuration classes for test class [com.example.demo.Controllers.CartControllerTests]: CartControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-12-15T21:42:30.321+0530 INFO Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+2021-12-15T21:42:30.322+0530 INFO Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5478597, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@39a1e1e6, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2daa5092, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5f346355, org.springframework.test.context.support.DirtiesContextTestExecutionListener@66e62e19, org.springframework.test.context.transaction.TransactionalTestExecutionListener@50fe5df2, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2fafa9bf, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@53fd59d4, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@43c3354, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@260fffec, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@743f58c3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4d359c69, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@28f6a008, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@71dfca65]
+2021-12-15T21:42:30.498+0530 INFO Item removed to the user's cart successfully.
+2021-12-15T21:42:30.502+0530 INFO Item added to the user's cart successfully.
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.168 s - in com.example.demo.Controllers.CartControllerTests
+[INFO] Running com.example.demo.Controllers.UserControllerTest
+2021-12-15T21:42:30.504+0530 INFO Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.Controllers.UserControllerTest], using DelegatingSmartContextLoader
+2021-12-15T21:42:30.505+0530 INFO Could not detect default resource locations for test class [com.example.demo.Controllers.UserControllerTest]: no resource found for suffixes {-context.xml}.
+2021-12-15T21:42:30.505+0530 INFO Could not detect default configuration classes for test class [com.example.demo.Controllers.UserControllerTest]: UserControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-12-15T21:42:30.505+0530 INFO Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+2021-12-15T21:42:30.506+0530 INFO Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@33b4c775, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@678b3746, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@45689582, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@73db1a6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@12a7515b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2c28654e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2ded31cc, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@47b71556, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@6fb2b972, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5fa3df, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@44f88149, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3b1a3125, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4199761d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3ca564aa]
+2021-12-15T21:42:30.520+0530 INFO Received get request for username: test
+2021-12-15T21:42:30.522+0530 INFO Received get request
+2021-12-15T21:42:30.525+0530 INFO User name set with 
+2021-12-15T21:42:30.525+0530 INFO User created. UserName: test
+2021-12-15T21:42:30.527+0530 INFO User name set with 
+2021-12-15T21:42:30.527+0530 INFO User created. UserName: test
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in com.example.demo.Controllers.UserControllerTest
+[INFO] Running com.example.demo.Controllers.OrderControllerTest
+2021-12-15T21:42:30.562+0530 INFO Order created successfully for username: test
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in com.example.demo.Controllers.OrderControllerTest
+2021-12-15T21:42:30.569+0530 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-15T21:42:30.570+0530 INFO Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-15T21:42:30.571+0530 INFO HikariPool-1 - Shutdown initiated...
+2021-12-15T21:42:30.573+0530 INFO HikariPool-1 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:3.1.1:jar (default-jar) @ auth-course ---
+[INFO] Building jar: /Users/tejako3/Desktop/Desktop - C02D705XMD6M (2)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/Ecommerce_application/target/auth-course-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.1.5.RELEASE:repackage (repackage) @ auth-course ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.735 s
+[INFO] Finished at: 2021-12-15T21:42:31+05:30
+[INFO] ------------------------------------------------------------------------
+tejako3@C02D705XMD6M Ecommerce_application % ls
+logs		mvnw		mvnw.cmd	pom.xml		src		target
+tejako3@C02D705XMD6M Ecommerce_application % cd target 
+tejako3@C02D705XMD6M target % java -jar /Users/tejako3/Desktop/Desktop\ -\ C02D705XMD6M\ \(2\)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/Ecommerce_application/target/auth-course-0.0.1-SNAPSHOT.jar
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.5.RELEASE)
+
+2021-12-15T21:43:32.760+0530 INFO Starting SareetaApplication v0.0.1-SNAPSHOT on C02D705XMD6M with PID 1454 (/Users/tejako3/Desktop/Desktop - C02D705XMD6M (2)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/Ecommerce_application/target/auth-course-0.0.1-SNAPSHOT.jar started by tejako3 in /Users/tejako3/Desktop/Desktop - C02D705XMD6M (2)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/Ecommerce_application/target)
+2021-12-15T21:43:32.765+0530 DEBUG Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-12-15T21:43:32.766+0530 INFO No active profile set, falling back to default profiles: default
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/Users/tejako3/Desktop/Desktop%20-%20C02D705XMD6M%20(2)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/Ecommerce_application/target/auth-course-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/log4j-slf4j-impl-2.11.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Users/tejako3/Desktop/Desktop%20-%20C02D705XMD6M%20(2)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/Ecommerce_application/target/auth-course-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/slf4j-log4j12-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+2021-12-15T21:43:33.207+0530 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-12-15T21:43:33.270+0530 INFO Finished Spring Data repository scanning in 56ms. Found 4 repository interfaces.
+2021-12-15T21:43:33.672+0530 INFO Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e1a73a09] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-15T21:43:33.902+0530 INFO Tomcat initialized with port(s): 8080 (http)
+2021-12-15T21:43:33.916+0530 INFO Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15T21:43:33.927+0530 INFO Starting service [Tomcat]
+2021-12-15T21:43:33.928+0530 INFO Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-12-15T21:43:33.995+0530 INFO Initializing Spring embedded WebApplicationContext
+2021-12-15T21:43:33.995+0530 INFO Root WebApplicationContext: initialization completed in 1188 ms
+2021-12-15T21:43:34.156+0530 INFO HikariPool-1 - Starting...
+2021-12-15T21:43:34.319+0530 INFO HikariPool-1 - Start completed.
+2021-12-15T21:43:34.361+0530 INFO HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-12-15T21:43:34.419+0530 INFO HHH000412: Hibernate Core {5.3.10.Final}
+2021-12-15T21:43:34.420+0530 INFO HHH000206: hibernate.properties not found
+2021-12-15T21:43:34.551+0530 INFO HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-15T21:43:34.735+0530 INFO HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-12-15T21:43:35.241+0530 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-15T21:43:35.689+0530 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@77c10a5f, org.springframework.security.web.context.SecurityContextPersistenceFilter@6e3ecf5c, org.springframework.security.web.header.HeaderWriterFilter@73809e7, org.springframework.web.filter.CorsFilter@176555c, org.springframework.security.web.authentication.logout.LogoutFilter@52b3bf03, com.example.demo.WebSecurity.JWTAuthFilter@7c781c42, com.example.demo.WebSecurity.JWTAuthVerificationFilter@795f8317, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@341b13a8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@33feb805, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@633fd91, org.springframework.security.web.session.SessionManagementFilter@48df4071, org.springframework.security.web.access.ExceptionTranslationFilter@30c4e352, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4086d8fb]
+2021-12-15T21:43:35.820+0530 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-15T21:43:35.856+0530 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-15T21:43:36.018+0530 INFO Starting ProtocolHandler ["http-nio-8080"]
+2021-12-15T21:43:36.038+0530 ERROR Failed to start component [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008) ~[tomcat-embed-core-9.0.19.jar!/:9.0.19]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.19.jar!/:9.0.19]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:226) [tomcat-embed-core-9.0.19.jar!/:9.0.19]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259) [spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197) [spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311) [spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164) [spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552) [spring-context-5.1.7.RELEASE.jar!/:5.1.7.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) [spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.5.RELEASE.jar!/:2.1.5.RELEASE]
+	at com.example.demo.SareetaApplication.main(SareetaApplication.java:22) [classes!/:0.0.1-SNAPSHOT]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48) [auth-course-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87) [auth-course-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50) [auth-course-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51) [auth-course-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:555) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294) ~[?:?]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89) ~[?:?]
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:239) ~[tomcat-embed-core-9.0.19.jar!/:9.0.19]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213) ~[tomcat-embed-core-9.0.19.jar!/:9.0.19]
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1116) ~[tomcat-embed-core-9.0.19.jar!/:9.0.19]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1202) ~[tomcat-embed-core-9.0.19.jar!/:9.0.19]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:568) ~[tomcat-embed-core-9.0.19.jar!/:9.0.19]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005) ~[tomcat-embed-core-9.0.19.jar!/:9.0.19]
+	... 22 more
+2021-12-15T21:43:36.050+0530 INFO Pausing ProtocolHandler ["http-nio-8080"]
+2021-12-15T21:43:36.050+0530 INFO Stopping service [Tomcat]
+2021-12-15T21:43:36.054+0530 INFO The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2021-12-15T21:43:36.054+0530 INFO Stopping ProtocolHandler ["http-nio-8080"]
+2021-12-15T21:43:36.054+0530 INFO Destroying ProtocolHandler ["http-nio-8080"]
+2021-12-15T21:43:36.057+0530 INFO 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-15T21:43:36.058+0530 ERROR 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2021-12-15T21:43:36.060+0530 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-15T21:43:36.061+0530 INFO Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-15T21:43:36.063+0530 INFO HikariPool-1 - Shutdown initiated...
+2021-12-15T21:43:36.066+0530 INFO HikariPool-1 - Shutdown completed.
+tejako3@C02D705XMD6M target % cd ..
+tejako3@C02D705XMD6M Ecommerce_application % docker build /Users/tejako3/Desktop/Desktop\ -\ C02D705XMD6M\ \(2\)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/Ecommerce_application/target/auth-course-0.0.1-SNAPSHOT.jar
+[+] Building 0.0s (1/2)                                                                                                                             
+ => ERROR [internal] load build definition from Dockerfile                                                                                     0.0s
+ => => transferring dockerfile: 207B                                                                                                           0.0s
+------
+ > [internal] load build definition from Dockerfile:
+------
+failed to solve with frontend dockerfile.v0: failed to read dockerfile: error from sender: walk /Users/tejako3/Desktop/Desktop - C02D705XMD6M (2)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/Ecommerce_application/target/auth-course-0.0.1-SNAPSHOT.jar: not a directory
+tejako3@C02D705XMD6M Ecommerce_application % docker build .
+[+] Building 0.0s (1/2)                                                                                                                             
+ => [internal] load build definition from Dockerfile                                                                                           0.0s
+ => => transferring dockerfile: 2B                                                                                                             0.0s
+failed to solve with frontend dockerfile.v0: failed to read dockerfile: open /var/lib/docker/tmp/buildkit-mount020794073/Dockerfile: no such file or directory
+tejako3@C02D705XMD6M Ecommerce_application % docker build --build-arg JAR_FILE=build/libs/\*.jar -t springio/gs-spring-boot-docker .
+[+] Building 0.0s (1/2)                                                                                                                             
+ => [internal] load build definition from Dockerfile                                                                                           0.0s
+ => => transferring dockerfile: 2B                                                                                                             0.0s
+failed to solve with frontend dockerfile.v0: failed to read dockerfile: open /var/lib/docker/tmp/buildkit-mount871523276/Dockerfile: no such file or directory
+tejako3@C02D705XMD6M Ecommerce_application % docker build -t springio/gs-spring-boot-docker .
+[+] Building 0.0s (1/2)                                                                                                                             
+ => [internal] load build definition from Dockerfile                                                                                           0.0s
+ => => transferring dockerfile: 2B                                                                                                             0.0s
+failed to solve with frontend dockerfile.v0: failed to read dockerfile: open /var/lib/docker/tmp/buildkit-mount377056743/Dockerfile: no such file or directory
+tejako3@C02D705XMD6M Ecommerce_application % docker build -f Dockerfile.txt -t /Users/tejako3/Desktop/Desktop\ -\ C02D705XMD6M\ \(2\)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/Ecommerce_application/target/auth-course-0.0.1-SNAPSHOT.jar
+invalid argument "/Users/tejako3/Desktop/Desktop - C02D705XMD6M (2)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/Ecommerce_application/target/auth-course-0.0.1-SNAPSHOT.jar" for "-t, --tag" flag: invalid reference format: repository name must be lowercase
+See 'docker build --help'.
+tejako3@C02D705XMD6M Ecommerce_application % docker build -f Dockerfile.txt -t /Users/tejako3/Desktop/Desktop\ -\ C02D705XMD6M\ \(2\)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/auth-course-0.0.1-SNAPSHOT.jar
+invalid argument "/Users/tejako3/Desktop/Desktop - C02D705XMD6M (2)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/auth-course-0.0.1-SNAPSHOT.jar" for "-t, --tag" flag: invalid reference format: repository name must be lowercase
+See 'docker build --help'.
+tejako3@C02D705XMD6M Ecommerce_application % docker build -f Dockerfile.txt -t /Users/tejako3/Desktop/Desktop\ -\ C02D705XMD6M\ \(2\)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/ecommerce.jar
+invalid argument "/Users/tejako3/Desktop/Desktop - C02D705XMD6M (2)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/ecommerce.jar" for "-t, --tag" flag: invalid reference format: repository name must be lowercase
+See 'docker build --help'.
+tejako3@C02D705XMD6M Ecommerce_application % docker build -f Dockerfile.txt -t ecommerce.jar                                                       
+"docker build" requires exactly 1 argument.
+See 'docker build --help'.
+
+Usage:  docker build [OPTIONS] PATH | URL | -
+
+Build an image from a Dockerfile
+tejako3@C02D705XMD6M Ecommerce_application % docker build -f dockerfile.txt -t ecommerce.jar
+"docker build" requires exactly 1 argument.
+See 'docker build --help'.
+
+Usage:  docker build [OPTIONS] PATH | URL | -
+
+Build an image from a Dockerfile
+tejako3@C02D705XMD6M Ecommerce_application % docker build .                                 
+[+] Building 0.0s (1/2)                                                                                                                             
+ => [internal] load build definition from Dockerfile                                                                                           0.0s
+ => => transferring dockerfile: 2B                                                                                                             0.0s
+failed to solve with frontend dockerfile.v0: failed to read dockerfile: open /var/lib/docker/tmp/buildkit-mount790143673/Dockerfile: no such file or directory
+tejako3@C02D705XMD6M Ecommerce_application % export DOCKER_BUILDKIT=0
+tejako3@C02D705XMD6M Ecommerce_application % export COMPOSE_DOCKER_CLI_BUILD=0
+tejako3@C02D705XMD6M Ecommerce_application % docker build .                   
+unable to prepare context: unable to evaluate symlinks in Dockerfile path: lstat /Users/tejako3/Desktop/Desktop - C02D705XMD6M (2)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/Ecommerce_application/Dockerfile: no such file or directory
+tejako3@C02D705XMD6M Ecommerce_application % docker build ecommerce.jar 
+unable to prepare context: context must be a directory: /Users/tejako3/Desktop/Desktop - C02D705XMD6M (2)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/Ecommerce_application/ecommerce.jar
+tejako3@C02D705XMD6M Ecommerce_application % docker build .            
+unable to prepare context: unable to evaluate symlinks in Dockerfile path: lstat /Users/tejako3/Desktop/Desktop - C02D705XMD6M (2)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/Ecommerce_application/Dockerfile: no such file or directory
+tejako3@C02D705XMD6M Ecommerce_application % docker build ecommerce.jar
+unable to prepare context: context must be a directory: /Users/tejako3/Desktop/Desktop - C02D705XMD6M (2)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/Ecommerce_application/ecommerce.jar
+tejako3@C02D705XMD6M Ecommerce_application % docker build              
+"docker build" requires exactly 1 argument.
+See 'docker build --help'.
+
+Usage:  docker build [OPTIONS] PATH | URL | -
+
+Build an image from a Dockerfile
+tejako3@C02D705XMD6M Ecommerce_application % docker build /Users/tejako3/Desktop/Desktop\ -\ C02D705XMD6M\ \(2\)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/Ecommerce_application/target/auth-course-0.0.1-SNAPSHOT.jar
+unable to prepare context: context must be a directory: /Users/tejako3/Desktop/Desktop - C02D705XMD6M (2)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/Ecommerce_application/target/auth-course-0.0.1-SNAPSHOT.jar
+tejako3@C02D705XMD6M Ecommerce_application % cd ..        
+tejako3@C02D705XMD6M starter_code % docker build /Users/tejako3/Desktop/Desktop\ -\ C02D705XMD6M\ \(2\)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/Ecommerce_application
+unable to prepare context: unable to evaluate symlinks in Dockerfile path: lstat /Users/tejako3/Desktop/Desktop - C02D705XMD6M (2)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/Ecommerce_application/Dockerfile: no such file or directory
+tejako3@C02D705XMD6M starter_code % docker build -t /Users/tejako3/Desktop/Desktop\ -\ C02D705XMD6M\ \(2\)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/Ecommerce_application
+invalid argument "/Users/tejako3/Desktop/Desktop - C02D705XMD6M (2)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/Ecommerce_application" for "-t, --tag" flag: invalid reference format: repository name must be lowercase
+See 'docker build --help'.
+tejako3@C02D705XMD6M starter_code % docker build /Users/tejako3/Desktop/Desktop\ -\ C02D705XMD6M\ \(2\)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/ecommerce_application
+unable to prepare context: unable to evaluate symlinks in Dockerfile path: lstat /Users/tejako3/Desktop/Desktop - C02D705XMD6M (2)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/ecommerce_application/Dockerfile: no such file or directory
+tejako3@C02D705XMD6M starter_code % docker build /Users/tejako3/Desktop/Desktop\ -\ C02D705XMD6M\ \(2\)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/ecommerce_application
+Sending build context to Docker daemon  40.14MB
+Step 1/4 : FROM openjdk:8-jdk-alpine
+8-jdk-alpine: Pulling from library/openjdk
+e7c96db7181b: Pull complete 
+f910a506b6cb: Pull complete 
+c2274a1a0e27: Pull complete 
+Digest: sha256:94792824df2df33402f201713f932b58cb9de94a0cd524164a0f2283343547b3
+Status: Downloaded newer image for openjdk:8-jdk-alpine
+ ---> a3562aa0b991
+Step 2/4 : MAINTAINER pavan
+ ---> Running in 45150f33d1d1
+Removing intermediate container 45150f33d1d1
+ ---> 164fdeb8f1f3
+Step 3/4 : COPY target/docker-message-server-1.0.0.jar message-server-1.0.0.jar
+COPY failed: file not found in build context or excluded by .dockerignore: stat target/docker-message-server-1.0.0.jar: file does not exist
+tejako3@C02D705XMD6M starter_code % docker build /Users/tejako3/Desktop/Desktop\ -\ C02D705XMD6M\ \(2\)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/ecommerce_application
+Sending build context to Docker daemon  40.23MB
+Step 1/5 : FROM openjdk:8-jdk-alpine
+8-jdk-alpine: Pulling from library/openjdk
+e7c96db7181b: Pull complete 
+f910a506b6cb: Pull complete 
+c2274a1a0e27: Pull complete 
+Digest: sha256:94792824df2df33402f201713f932b58cb9de94a0cd524164a0f2283343547b3
+Status: Downloaded newer image for openjdk:8-jdk-alpine
+ ---> a3562aa0b991
+Step 2/5 : MAINTAINER pavan
+ ---> Running in 7de02f5b649e
+Removing intermediate container 7de02f5b649e
+ ---> 3a0843382ac9
+Step 3/5 : RUN git clone https://github.com/pa1-teja/ecommerce_application.git
+ ---> Running in 82092ec8d162
+/bin/sh: git: not found
+The command '/bin/sh -c git clone https://github.com/pa1-teja/ecommerce_application.git' returned a non-zero code: 127
+tejako3@C02D705XMD6M starter_code % docker build /Users/tejako3/Desktop/Desktop\ -\ C02D705XMD6M\ \(2\)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/ecommerce_application
+Sending build context to Docker daemon  40.23MB
+Step 1/6 : FROM openjdk:8-jdk-alpine
+8-jdk-alpine: Pulling from library/openjdk
+e7c96db7181b: Pull complete 
+f910a506b6cb: Pull complete 
+c2274a1a0e27: Pull complete 
+Digest: sha256:94792824df2df33402f201713f932b58cb9de94a0cd524164a0f2283343547b3
+Status: Downloaded newer image for openjdk:8-jdk-alpine
+ ---> a3562aa0b991
+Step 2/6 : MAINTAINER pavan
+ ---> Running in 06bbebb0ad28
+Removing intermediate container 06bbebb0ad28
+ ---> dc6528817b95
+Step 3/6 : RUN brew install git
+ ---> Running in a9f0f65f1a31
+/bin/sh: brew: not found
+The command '/bin/sh -c brew install git' returned a non-zero code: 127
+tejako3@C02D705XMD6M starter_code % docker build /Users/tejako3/Desktop/Desktop\ -\ C02D705XMD6M\ \(2\)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/ecommerce_application
+Sending build context to Docker daemon  40.23MB
+Step 1/6 : FROM openjdk:8-jdk-alpine
+8-jdk-alpine: Pulling from library/openjdk
+e7c96db7181b: Pull complete 
+f910a506b6cb: Pull complete 
+c2274a1a0e27: Pull complete 
+Digest: sha256:94792824df2df33402f201713f932b58cb9de94a0cd524164a0f2283343547b3
+Status: Downloaded newer image for openjdk:8-jdk-alpine
+ ---> a3562aa0b991
+Step 2/6 : MAINTAINER pavan
+ ---> Running in d092fb7dd73b
+Removing intermediate container d092fb7dd73b
+ ---> 0859ab05fd02
+Step 3/6 : RUN apt install -y git
+ ---> Running in 7692f55bdce0
+/bin/sh: apt: not found
+The command '/bin/sh -c apt install -y git' returned a non-zero code: 127
+tejako3@C02D705XMD6M starter_code % docker build /Users/tejako3/Desktop/Desktop\ -\ C02D705XMD6M\ \(2\)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/ecommerce_application
+Sending build context to Docker daemon  40.23MB
+Step 1/4 : FROM openjdk:8-jdk-alpine
+8-jdk-alpine: Pulling from library/openjdk
+e7c96db7181b: Pull complete 
+f910a506b6cb: Pull complete 
+c2274a1a0e27: Pull complete 
+Digest: sha256:94792824df2df33402f201713f932b58cb9de94a0cd524164a0f2283343547b3
+Status: Downloaded newer image for openjdk:8-jdk-alpine
+ ---> a3562aa0b991
+Step 2/4 : MAINTAINER pavan
+ ---> Running in e70a3a07c7db
+Removing intermediate container e70a3a07c7db
+ ---> e95d065cf7fe
+Step 3/4 : COPY target/auth-course-0.0.1-SNAPSHOT.jar auth-course-0.0.1-SNAPSHOT.jar
+ ---> 03f0c967bbfd
+Step 4/4 : ENTRYPOINT ["java","-jar","/auth-course-0.0.1-SNAPSHOT.jar"]
+ ---> Running in 2e366a7c984a
+Removing intermediate container 2e366a7c984a
+ ---> 0577d719d258
+Successfully built 0577d719d258
+
+Use 'docker scan' to run Snyk tests against images to find vulnerabilities and learn how to fix them
+tejako3@C02D705XMD6M starter_code % docker build /Users/tejako3/Desktop/Desktop\ -\ C02D705XMD6M\ \(2\)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/ecommerce_application
+Sending build context to Docker daemon  40.23MB
+Step 1/4 : FROM ubuntu:latest
+latest: Pulling from library/ubuntu
+7b1a6ab2e44d: Pull complete 
+Digest: sha256:626ffe58f6e7566e00254b638eb7e0f3b11d4da9675088f4781a50ae288f3322
+Status: Downloaded newer image for ubuntu:latest
+ ---> ba6acccedd29
+Step 2/4 : MAINTAINER pavan
+ ---> Running in 43ce0d4d2e12
+Removing intermediate container 43ce0d4d2e12
+ ---> 862dfe6a77be
+Step 3/4 : COPY target/auth-course-0.0.1-SNAPSHOT.jar auth-course-0.0.1-SNAPSHOT.jar
+ ---> 5f1da6d8d281
+Step 4/4 : ENTRYPOINT ["java","-jar","/auth-course-0.0.1-SNAPSHOT.jar"]
+ ---> Running in 476cac079146
+Removing intermediate container 476cac079146
+ ---> d7eea16a0d76
+Successfully built d7eea16a0d76
+
+Use 'docker scan' to run Snyk tests against images to find vulnerabilities and learn how to fix them
+tejako3@C02D705XMD6M starter_code % docker build /Users/tejako3/Desktop/Desktop\ -\ C02D705XMD6M\ \(2\)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/ecommerce_application
+Sending build context to Docker daemon  75.96MB
+Step 1/6 : FROM ubuntu:latest
+latest: Pulling from library/ubuntu
+7b1a6ab2e44d: Pull complete 
+Digest: sha256:626ffe58f6e7566e00254b638eb7e0f3b11d4da9675088f4781a50ae288f3322
+Status: Downloaded newer image for ubuntu:latest
+ ---> ba6acccedd29
+Step 2/6 : MAINTAINER pavan
+ ---> Running in b5da32c7d4fb
+Removing intermediate container b5da32c7d4fb
+ ---> ebcd2a7c0d37
+Step 3/6 : RUN apt install git-all
+ ---> Running in 046815a40f3b
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+E: Unable to locate package git-all
+The command '/bin/sh -c apt install git-all' returned a non-zero code: 100
+tejako3@C02D705XMD6M starter_code % docker build /Users/tejako3/Desktop/Desktop\ -\ C02D705XMD6M\ \(2\)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/ecommerce_application
+Sending build context to Docker daemon  75.96MB
+Step 1/6 : FROM ubuntu:latest
+latest: Pulling from library/ubuntu
+7b1a6ab2e44d: Pull complete 
+Digest: sha256:626ffe58f6e7566e00254b638eb7e0f3b11d4da9675088f4781a50ae288f3322
+Status: Downloaded newer image for ubuntu:latest
+ ---> ba6acccedd29
+Step 2/6 : MAINTAINER pavan
+ ---> Running in 6494aa54320c
+Removing intermediate container 6494aa54320c
+ ---> 3de58d7c0a72
+Step 3/6 : RUN apt-get install git
+ ---> Running in 8855e56f2935
+Reading package lists...
+Building dependency tree...
+Reading state information...
+E: Unable to locate package git
+The command '/bin/sh -c apt-get install git' returned a non-zero code: 100
+tejako3@C02D705XMD6M starter_code % docker build /Users/tejako3/Desktop/Desktop\ -\ C02D705XMD6M\ \(2\)/nd035-c4-Security-and-DevOps-master/Ecommerce_Application/starter_code/ecommerce_application
+Sending build context to Docker daemon  75.96MB
+Step 1/7 : FROM ubuntu:latest
+latest: Pulling from library/ubuntu
+7b1a6ab2e44d: Pull complete 
+Digest: sha256:626ffe58f6e7566e00254b638eb7e0f3b11d4da9675088f4781a50ae288f3322
+Status: Downloaded newer image for ubuntu:latest
+ ---> ba6acccedd29
+Step 2/7 : MAINTAINER pavan
+ ---> Running in bc9cde9ecbe0
+Removing intermediate container bc9cde9ecbe0
+ ---> 3fc4d8f34c66
+Step 3/7 : RUN apt-get update && apt-get install -y git
+ ---> Running in 893ed23dfb56
+Get:1 http://archive.ubuntu.com/ubuntu focal InRelease [265 kB]
+Get:2 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+Get:3 http://archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Get:4 http://archive.ubuntu.com/ubuntu focal-backports InRelease [108 kB]
+Get:5 http://archive.ubuntu.com/ubuntu focal/main amd64 Packages [1275 kB]
+Get:6 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 Packages [726 kB]
+Get:7 http://archive.ubuntu.com/ubuntu focal/restricted amd64 Packages [33.4 kB]
+Get:8 http://archive.ubuntu.com/ubuntu focal/multiverse amd64 Packages [177 kB]
+Get:9 http://archive.ubuntu.com/ubuntu focal/universe amd64 Packages [11.3 MB]
+Get:10 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [1329 kB]
+Get:11 http://archive.ubuntu.com/ubuntu focal-updates/restricted amd64 Packages [794 kB]
+Get:12 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [1106 kB]
+Get:13 http://archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 Packages [33.6 kB]
+Get:14 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [1754 kB]
+Get:15 http://archive.ubuntu.com/ubuntu focal-backports/universe amd64 Packages [21.7 kB]
+Get:16 http://archive.ubuntu.com/ubuntu focal-backports/main amd64 Packages [50.8 kB]
+Get:17 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 Packages [30.1 kB]
+Get:18 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [826 kB]
+Fetched 20.1 MB in 6s (3373 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  ca-certificates git-man krb5-locales less libasn1-8-heimdal libbrotli1
+  libbsd0 libcbor0.6 libcurl3-gnutls libedit2 liberror-perl libexpat1
+  libfido2-1 libgdbm-compat4 libgdbm6 libgssapi-krb5-2 libgssapi3-heimdal
+  libhcrypto4-heimdal libheimbase1-heimdal libheimntlm0-heimdal
+  libhx509-5-heimdal libk5crypto3 libkeyutils1 libkrb5-26-heimdal libkrb5-3
+  libkrb5support0 libldap-2.4-2 libldap-common libnghttp2-14 libperl5.30
+  libpsl5 libroken18-heimdal librtmp1 libsasl2-2 libsasl2-modules
+  libsasl2-modules-db libsqlite3-0 libssh-4 libssl1.1 libwind0-heimdal
+  libx11-6 libx11-data libxau6 libxcb1 libxdmcp6 libxext6 libxmuu1 netbase
+  openssh-client openssl patch perl perl-modules-5.30 publicsuffix xauth
+Suggested packages:
+  gettext-base git-daemon-run | git-daemon-sysvinit git-doc git-el git-email
+  git-gui gitk gitweb git-cvs git-mediawiki git-svn gdbm-l10n krb5-doc
+  krb5-user libsasl2-modules-gssapi-mit | libsasl2-modules-gssapi-heimdal
+  libsasl2-modules-ldap libsasl2-modules-otp libsasl2-modules-sql keychain
+  libpam-ssh monkeysphere ssh-askpass ed diffutils-doc perl-doc
+  libterm-readline-gnu-perl | libterm-readline-perl-perl make libb-debug-perl
+  liblocale-codes-perl
+The following NEW packages will be installed:
+  ca-certificates git git-man krb5-locales less libasn1-8-heimdal libbrotli1
+  libbsd0 libcbor0.6 libcurl3-gnutls libedit2 liberror-perl libexpat1
+  libfido2-1 libgdbm-compat4 libgdbm6 libgssapi-krb5-2 libgssapi3-heimdal
+  libhcrypto4-heimdal libheimbase1-heimdal libheimntlm0-heimdal
+  libhx509-5-heimdal libk5crypto3 libkeyutils1 libkrb5-26-heimdal libkrb5-3
+  libkrb5support0 libldap-2.4-2 libldap-common libnghttp2-14 libperl5.30
+  libpsl5 libroken18-heimdal librtmp1 libsasl2-2 libsasl2-modules
+  libsasl2-modules-db libsqlite3-0 libssh-4 libssl1.1 libwind0-heimdal
+  libx11-6 libx11-data libxau6 libxcb1 libxdmcp6 libxext6 libxmuu1 netbase
+  openssh-client openssl patch perl perl-modules-5.30 publicsuffix xauth
+0 upgraded, 56 newly installed, 0 to remove and 1 not upgraded.
+Need to get 19.7 MB of archives.
+After this operation, 110 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 perl-modules-5.30 all 5.30.0-9ubuntu0.2 [2738 kB]
+Get:2 http://archive.ubuntu.com/ubuntu focal/main amd64 libgdbm6 amd64 1.18.1-5 [27.4 kB]
+Get:3 http://archive.ubuntu.com/ubuntu focal/main amd64 libgdbm-compat4 amd64 1.18.1-5 [6244 B]
+Get:4 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libperl5.30 amd64 5.30.0-9ubuntu0.2 [3952 kB]
+Get:5 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 perl amd64 5.30.0-9ubuntu0.2 [224 kB]
+Get:6 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libssl1.1 amd64 1.1.1f-1ubuntu2.10 [1322 kB]
+Get:7 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 openssl amd64 1.1.1f-1ubuntu2.10 [620 kB]
+Get:8 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 ca-certificates all 20210119~20.04.2 [145 kB]
+Get:9 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 less amd64 551-1ubuntu0.1 [123 kB]
+Get:10 http://archive.ubuntu.com/ubuntu focal/main amd64 libbsd0 amd64 0.10.0-1 [45.4 kB]
+Get:11 http://archive.ubuntu.com/ubuntu focal/main amd64 libexpat1 amd64 2.2.9-1build1 [73.3 kB]
+Get:12 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libsqlite3-0 amd64 3.31.1-4ubuntu0.2 [549 kB]
+Get:13 http://archive.ubuntu.com/ubuntu focal/main amd64 netbase all 6.1 [13.1 kB]
+Get:14 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 krb5-locales all 1.17-6ubuntu4.1 [11.4 kB]
+Get:15 http://archive.ubuntu.com/ubuntu focal/main amd64 libcbor0.6 amd64 0.6.0-0ubuntu1 [21.1 kB]
+Get:16 http://archive.ubuntu.com/ubuntu focal/main amd64 libedit2 amd64 3.1-20191231-1 [87.0 kB]
+Get:17 http://archive.ubuntu.com/ubuntu focal/main amd64 libfido2-1 amd64 1.3.1-1ubuntu2 [47.9 kB]
+Get:18 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libkrb5support0 amd64 1.17-6ubuntu4.1 [30.9 kB]
+Get:19 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libk5crypto3 amd64 1.17-6ubuntu4.1 [79.9 kB]
+Get:20 http://archive.ubuntu.com/ubuntu focal/main amd64 libkeyutils1 amd64 1.6-6ubuntu1 [10.2 kB]
+Get:21 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libkrb5-3 amd64 1.17-6ubuntu4.1 [330 kB]
+Get:22 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgssapi-krb5-2 amd64 1.17-6ubuntu4.1 [121 kB]
+Get:23 http://archive.ubuntu.com/ubuntu focal/main amd64 libpsl5 amd64 0.21.0-1ubuntu1 [51.5 kB]
+Get:24 http://archive.ubuntu.com/ubuntu focal/main amd64 libxau6 amd64 1:1.0.9-0ubuntu1 [7488 B]
+Get:25 http://archive.ubuntu.com/ubuntu focal/main amd64 libxdmcp6 amd64 1:1.1.3-0ubuntu1 [10.6 kB]
+Get:26 http://archive.ubuntu.com/ubuntu focal/main amd64 libxcb1 amd64 1.14-2 [44.7 kB]
+Get:27 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libx11-data all 2:1.6.9-2ubuntu1.2 [113 kB]
+Get:28 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libx11-6 amd64 2:1.6.9-2ubuntu1.2 [575 kB]
+Get:29 http://archive.ubuntu.com/ubuntu focal/main amd64 libxext6 amd64 2:1.3.4-0ubuntu1 [29.1 kB]
+Get:30 http://archive.ubuntu.com/ubuntu focal/main amd64 libxmuu1 amd64 2:1.1.3-0ubuntu1 [9728 B]
+Get:31 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 openssh-client amd64 1:8.2p1-4ubuntu0.3 [671 kB]
+Get:32 http://archive.ubuntu.com/ubuntu focal/main amd64 publicsuffix all 20200303.0012-1 [111 kB]
+Get:33 http://archive.ubuntu.com/ubuntu focal/main amd64 xauth amd64 1:1.1-0ubuntu1 [25.0 kB]
+Get:34 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libbrotli1 amd64 1.0.7-6ubuntu0.1 [267 kB]
+Get:35 http://archive.ubuntu.com/ubuntu focal/main amd64 libroken18-heimdal amd64 7.7.0+dfsg-1ubuntu1 [41.8 kB]
+Get:36 http://archive.ubuntu.com/ubuntu focal/main amd64 libasn1-8-heimdal amd64 7.7.0+dfsg-1ubuntu1 [181 kB]
+Get:37 http://archive.ubuntu.com/ubuntu focal/main amd64 libheimbase1-heimdal amd64 7.7.0+dfsg-1ubuntu1 [29.7 kB]
+Get:38 http://archive.ubuntu.com/ubuntu focal/main amd64 libhcrypto4-heimdal amd64 7.7.0+dfsg-1ubuntu1 [87.9 kB]
+Get:39 http://archive.ubuntu.com/ubuntu focal/main amd64 libwind0-heimdal amd64 7.7.0+dfsg-1ubuntu1 [48.0 kB]
+Get:40 http://archive.ubuntu.com/ubuntu focal/main amd64 libhx509-5-heimdal amd64 7.7.0+dfsg-1ubuntu1 [107 kB]
+Get:41 http://archive.ubuntu.com/ubuntu focal/main amd64 libkrb5-26-heimdal amd64 7.7.0+dfsg-1ubuntu1 [208 kB]
+Get:42 http://archive.ubuntu.com/ubuntu focal/main amd64 libheimntlm0-heimdal amd64 7.7.0+dfsg-1ubuntu1 [15.1 kB]
+Get:43 http://archive.ubuntu.com/ubuntu focal/main amd64 libgssapi3-heimdal amd64 7.7.0+dfsg-1ubuntu1 [96.1 kB]
+Get:44 http://archive.ubuntu.com/ubuntu focal/main amd64 libsasl2-modules-db amd64 2.1.27+dfsg-2 [14.9 kB]
+Get:45 http://archive.ubuntu.com/ubuntu focal/main amd64 libsasl2-2 amd64 2.1.27+dfsg-2 [49.3 kB]
+Get:46 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libldap-common all 2.4.49+dfsg-2ubuntu1.8 [16.6 kB]
+Get:47 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libldap-2.4-2 amd64 2.4.49+dfsg-2ubuntu1.8 [155 kB]
+Get:48 http://archive.ubuntu.com/ubuntu focal/main amd64 libnghttp2-14 amd64 1.40.0-1build1 [78.7 kB]
+Get:49 http://archive.ubuntu.com/ubuntu focal/main amd64 librtmp1 amd64 2.4+20151223.gitfa8646d.1-2build1 [54.9 kB]
+Get:50 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libssh-4 amd64 0.9.3-2ubuntu2.2 [170 kB]
+Get:51 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libcurl3-gnutls amd64 7.68.0-1ubuntu2.7 [232 kB]
+Get:52 http://archive.ubuntu.com/ubuntu focal/main amd64 liberror-perl all 0.17029-1 [26.5 kB]
+Get:53 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 git-man all 1:2.25.1-1ubuntu3.2 [884 kB]
+Get:54 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 git amd64 1:2.25.1-1ubuntu3.2 [4554 kB]
+Get:55 http://archive.ubuntu.com/ubuntu focal/main amd64 libsasl2-modules amd64 2.1.27+dfsg-2 [49.1 kB]
+Get:56 http://archive.ubuntu.com/ubuntu focal/main amd64 patch amd64 2.7.6-6 [105 kB]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 19.7 MB in 6s (3252 kB/s)
+Selecting previously unselected package perl-modules-5.30.
+(Reading database ... 4127 files and directories currently installed.)
+Preparing to unpack .../00-perl-modules-5.30_5.30.0-9ubuntu0.2_all.deb ...
+Unpacking perl-modules-5.30 (5.30.0-9ubuntu0.2) ...
+Selecting previously unselected package libgdbm6:amd64.
+Preparing to unpack .../01-libgdbm6_1.18.1-5_amd64.deb ...
+Unpacking libgdbm6:amd64 (1.18.1-5) ...
+Selecting previously unselected package libgdbm-compat4:amd64.
+Preparing to unpack .../02-libgdbm-compat4_1.18.1-5_amd64.deb ...
+Unpacking libgdbm-compat4:amd64 (1.18.1-5) ...
+Selecting previously unselected package libperl5.30:amd64.
+Preparing to unpack .../03-libperl5.30_5.30.0-9ubuntu0.2_amd64.deb ...
+Unpacking libperl5.30:amd64 (5.30.0-9ubuntu0.2) ...
+Selecting previously unselected package perl.
+Preparing to unpack .../04-perl_5.30.0-9ubuntu0.2_amd64.deb ...
+Unpacking perl (5.30.0-9ubuntu0.2) ...
+Selecting previously unselected package libssl1.1:amd64.
+Preparing to unpack .../05-libssl1.1_1.1.1f-1ubuntu2.10_amd64.deb ...
+Unpacking libssl1.1:amd64 (1.1.1f-1ubuntu2.10) ...
+Selecting previously unselected package openssl.
+Preparing to unpack .../06-openssl_1.1.1f-1ubuntu2.10_amd64.deb ...
+Unpacking openssl (1.1.1f-1ubuntu2.10) ...
+Selecting previously unselected package ca-certificates.
+Preparing to unpack .../07-ca-certificates_20210119~20.04.2_all.deb ...
+Unpacking ca-certificates (20210119~20.04.2) ...
+Selecting previously unselected package less.
+Preparing to unpack .../08-less_551-1ubuntu0.1_amd64.deb ...
+Unpacking less (551-1ubuntu0.1) ...
+Selecting previously unselected package libbsd0:amd64.
+Preparing to unpack .../09-libbsd0_0.10.0-1_amd64.deb ...
+Unpacking libbsd0:amd64 (0.10.0-1) ...
+Selecting previously unselected package libexpat1:amd64.
+Preparing to unpack .../10-libexpat1_2.2.9-1build1_amd64.deb ...
+Unpacking libexpat1:amd64 (2.2.9-1build1) ...
+Selecting previously unselected package libsqlite3-0:amd64.
+Preparing to unpack .../11-libsqlite3-0_3.31.1-4ubuntu0.2_amd64.deb ...
+Unpacking libsqlite3-0:amd64 (3.31.1-4ubuntu0.2) ...
+Selecting previously unselected package netbase.
+Preparing to unpack .../12-netbase_6.1_all.deb ...
+Unpacking netbase (6.1) ...
+Selecting previously unselected package krb5-locales.
+Preparing to unpack .../13-krb5-locales_1.17-6ubuntu4.1_all.deb ...
+Unpacking krb5-locales (1.17-6ubuntu4.1) ...
+Selecting previously unselected package libcbor0.6:amd64.
+Preparing to unpack .../14-libcbor0.6_0.6.0-0ubuntu1_amd64.deb ...
+Unpacking libcbor0.6:amd64 (0.6.0-0ubuntu1) ...
+Selecting previously unselected package libedit2:amd64.
+Preparing to unpack .../15-libedit2_3.1-20191231-1_amd64.deb ...
+Unpacking libedit2:amd64 (3.1-20191231-1) ...
+Selecting previously unselected package libfido2-1:amd64.
+Preparing to unpack .../16-libfido2-1_1.3.1-1ubuntu2_amd64.deb ...
+Unpacking libfido2-1:amd64 (1.3.1-1ubuntu2) ...
+Selecting previously unselected package libkrb5support0:amd64.
+Preparing to unpack .../17-libkrb5support0_1.17-6ubuntu4.1_amd64.deb ...
+Unpacking libkrb5support0:amd64 (1.17-6ubuntu4.1) ...
+Selecting previously unselected package libk5crypto3:amd64.
+Preparing to unpack .../18-libk5crypto3_1.17-6ubuntu4.1_amd64.deb ...
+Unpacking libk5crypto3:amd64 (1.17-6ubuntu4.1) ...
+Selecting previously unselected package libkeyutils1:amd64.
+Preparing to unpack .../19-libkeyutils1_1.6-6ubuntu1_amd64.deb ...
+Unpacking libkeyutils1:amd64 (1.6-6ubuntu1) ...
+Selecting previously unselected package libkrb5-3:amd64.
+Preparing to unpack .../20-libkrb5-3_1.17-6ubuntu4.1_amd64.deb ...
+Unpacking libkrb5-3:amd64 (1.17-6ubuntu4.1) ...
+Selecting previously unselected package libgssapi-krb5-2:amd64.
+Preparing to unpack .../21-libgssapi-krb5-2_1.17-6ubuntu4.1_amd64.deb ...
+Unpacking libgssapi-krb5-2:amd64 (1.17-6ubuntu4.1) ...
+Selecting previously unselected package libpsl5:amd64.
+Preparing to unpack .../22-libpsl5_0.21.0-1ubuntu1_amd64.deb ...
+Unpacking libpsl5:amd64 (0.21.0-1ubuntu1) ...
+Selecting previously unselected package libxau6:amd64.
+Preparing to unpack .../23-libxau6_1%3a1.0.9-0ubuntu1_amd64.deb ...
+Unpacking libxau6:amd64 (1:1.0.9-0ubuntu1) ...
+Selecting previously unselected package libxdmcp6:amd64.
+Preparing to unpack .../24-libxdmcp6_1%3a1.1.3-0ubuntu1_amd64.deb ...
+Unpacking libxdmcp6:amd64 (1:1.1.3-0ubuntu1) ...
+Selecting previously unselected package libxcb1:amd64.
+Preparing to unpack .../25-libxcb1_1.14-2_amd64.deb ...
+Unpacking libxcb1:amd64 (1.14-2) ...
+Selecting previously unselected package libx11-data.
+Preparing to unpack .../26-libx11-data_2%3a1.6.9-2ubuntu1.2_all.deb ...
+Unpacking libx11-data (2:1.6.9-2ubuntu1.2) ...
+Selecting previously unselected package libx11-6:amd64.
+Preparing to unpack .../27-libx11-6_2%3a1.6.9-2ubuntu1.2_amd64.deb ...
+Unpacking libx11-6:amd64 (2:1.6.9-2ubuntu1.2) ...
+Selecting previously unselected package libxext6:amd64.
+Preparing to unpack .../28-libxext6_2%3a1.3.4-0ubuntu1_amd64.deb ...
+Unpacking libxext6:amd64 (2:1.3.4-0ubuntu1) ...
+Selecting previously unselected package libxmuu1:amd64.
+Preparing to unpack .../29-libxmuu1_2%3a1.1.3-0ubuntu1_amd64.deb ...
+Unpacking libxmuu1:amd64 (2:1.1.3-0ubuntu1) ...
+Selecting previously unselected package openssh-client.
+Preparing to unpack .../30-openssh-client_1%3a8.2p1-4ubuntu0.3_amd64.deb ...
+Unpacking openssh-client (1:8.2p1-4ubuntu0.3) ...
+Selecting previously unselected package publicsuffix.
+Preparing to unpack .../31-publicsuffix_20200303.0012-1_all.deb ...
+Unpacking publicsuffix (20200303.0012-1) ...
+Selecting previously unselected package xauth.
+Preparing to unpack .../32-xauth_1%3a1.1-0ubuntu1_amd64.deb ...
+Unpacking xauth (1:1.1-0ubuntu1) ...
+Selecting previously unselected package libbrotli1:amd64.
+Preparing to unpack .../33-libbrotli1_1.0.7-6ubuntu0.1_amd64.deb ...
+Unpacking libbrotli1:amd64 (1.0.7-6ubuntu0.1) ...
+Selecting previously unselected package libroken18-heimdal:amd64.
+Preparing to unpack .../34-libroken18-heimdal_7.7.0+dfsg-1ubuntu1_amd64.deb ...
+Unpacking libroken18-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
+Selecting previously unselected package libasn1-8-heimdal:amd64.
+Preparing to unpack .../35-libasn1-8-heimdal_7.7.0+dfsg-1ubuntu1_amd64.deb ...
+Unpacking libasn1-8-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
+Selecting previously unselected package libheimbase1-heimdal:amd64.
+Preparing to unpack .../36-libheimbase1-heimdal_7.7.0+dfsg-1ubuntu1_amd64.deb ...
+Unpacking libheimbase1-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
+Selecting previously unselected package libhcrypto4-heimdal:amd64.
+Preparing to unpack .../37-libhcrypto4-heimdal_7.7.0+dfsg-1ubuntu1_amd64.deb ...
+Unpacking libhcrypto4-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
+Selecting previously unselected package libwind0-heimdal:amd64.
+Preparing to unpack .../38-libwind0-heimdal_7.7.0+dfsg-1ubuntu1_amd64.deb ...
+Unpacking libwind0-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
+Selecting previously unselected package libhx509-5-heimdal:amd64.
+Preparing to unpack .../39-libhx509-5-heimdal_7.7.0+dfsg-1ubuntu1_amd64.deb ...
+Unpacking libhx509-5-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
+Selecting previously unselected package libkrb5-26-heimdal:amd64.
+Preparing to unpack .../40-libkrb5-26-heimdal_7.7.0+dfsg-1ubuntu1_amd64.deb ...
+Unpacking libkrb5-26-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
+Selecting previously unselected package libheimntlm0-heimdal:amd64.
+Preparing to unpack .../41-libheimntlm0-heimdal_7.7.0+dfsg-1ubuntu1_amd64.deb ...
+Unpacking libheimntlm0-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
+Selecting previously unselected package libgssapi3-heimdal:amd64.
+Preparing to unpack .../42-libgssapi3-heimdal_7.7.0+dfsg-1ubuntu1_amd64.deb ...
+Unpacking libgssapi3-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
+Selecting previously unselected package libsasl2-modules-db:amd64.
+Preparing to unpack .../43-libsasl2-modules-db_2.1.27+dfsg-2_amd64.deb ...
+Unpacking libsasl2-modules-db:amd64 (2.1.27+dfsg-2) ...
+Selecting previously unselected package libsasl2-2:amd64.
+Preparing to unpack .../44-libsasl2-2_2.1.27+dfsg-2_amd64.deb ...
+Unpacking libsasl2-2:amd64 (2.1.27+dfsg-2) ...
+Selecting previously unselected package libldap-common.
+Preparing to unpack .../45-libldap-common_2.4.49+dfsg-2ubuntu1.8_all.deb ...
+Unpacking libldap-common (2.4.49+dfsg-2ubuntu1.8) ...
+Selecting previously unselected package libldap-2.4-2:amd64.
+Preparing to unpack .../46-libldap-2.4-2_2.4.49+dfsg-2ubuntu1.8_amd64.deb ...
+Unpacking libldap-2.4-2:amd64 (2.4.49+dfsg-2ubuntu1.8) ...
+Selecting previously unselected package libnghttp2-14:amd64.
+Preparing to unpack .../47-libnghttp2-14_1.40.0-1build1_amd64.deb ...
+Unpacking libnghttp2-14:amd64 (1.40.0-1build1) ...
+Selecting previously unselected package librtmp1:amd64.
+Preparing to unpack .../48-librtmp1_2.4+20151223.gitfa8646d.1-2build1_amd64.deb ...
+Unpacking librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2build1) ...
+Selecting previously unselected package libssh-4:amd64.
+Preparing to unpack .../49-libssh-4_0.9.3-2ubuntu2.2_amd64.deb ...
+Unpacking libssh-4:amd64 (0.9.3-2ubuntu2.2) ...
+Selecting previously unselected package libcurl3-gnutls:amd64.
+Preparing to unpack .../50-libcurl3-gnutls_7.68.0-1ubuntu2.7_amd64.deb ...
+Unpacking libcurl3-gnutls:amd64 (7.68.0-1ubuntu2.7) ...
+Selecting previously unselected package liberror-perl.
+Preparing to unpack .../51-liberror-perl_0.17029-1_all.deb ...
+Unpacking liberror-perl (0.17029-1) ...
+Selecting previously unselected package git-man.
+Preparing to unpack .../52-git-man_1%3a2.25.1-1ubuntu3.2_all.deb ...
+Unpacking git-man (1:2.25.1-1ubuntu3.2) ...
+Selecting previously unselected package git.
+Preparing to unpack .../53-git_1%3a2.25.1-1ubuntu3.2_amd64.deb ...
+Unpacking git (1:2.25.1-1ubuntu3.2) ...
+Selecting previously unselected package libsasl2-modules:amd64.
+Preparing to unpack .../54-libsasl2-modules_2.1.27+dfsg-2_amd64.deb ...
+Unpacking libsasl2-modules:amd64 (2.1.27+dfsg-2) ...
+Selecting previously unselected package patch.
+Preparing to unpack .../55-patch_2.7.6-6_amd64.deb ...
+Unpacking patch (2.7.6-6) ...
+Setting up libexpat1:amd64 (2.2.9-1build1) ...
+Setting up libxau6:amd64 (1:1.0.9-0ubuntu1) ...
+Setting up libkeyutils1:amd64 (1.6-6ubuntu1) ...
+Setting up libpsl5:amd64 (0.21.0-1ubuntu1) ...
+Setting up perl-modules-5.30 (5.30.0-9ubuntu0.2) ...
+Setting up libssl1.1:amd64 (1.1.1f-1ubuntu2.10) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+Setting up libbrotli1:amd64 (1.0.7-6ubuntu0.1) ...
+Setting up libsqlite3-0:amd64 (3.31.1-4ubuntu0.2) ...
+Setting up libsasl2-modules:amd64 (2.1.27+dfsg-2) ...
+Setting up libnghttp2-14:amd64 (1.40.0-1build1) ...
+Setting up less (551-1ubuntu0.1) ...
+Setting up krb5-locales (1.17-6ubuntu4.1) ...
+Setting up libcbor0.6:amd64 (0.6.0-0ubuntu1) ...
+Setting up libldap-common (2.4.49+dfsg-2ubuntu1.8) ...
+Setting up libkrb5support0:amd64 (1.17-6ubuntu4.1) ...
+Setting up libsasl2-modules-db:amd64 (2.1.27+dfsg-2) ...
+Setting up libx11-data (2:1.6.9-2ubuntu1.2) ...
+Setting up librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2build1) ...
+Setting up patch (2.7.6-6) ...
+Setting up libk5crypto3:amd64 (1.17-6ubuntu4.1) ...
+Setting up libsasl2-2:amd64 (2.1.27+dfsg-2) ...
+Setting up libroken18-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
+Setting up git-man (1:2.25.1-1ubuntu3.2) ...
+Setting up netbase (6.1) ...
+Setting up libkrb5-3:amd64 (1.17-6ubuntu4.1) ...
+Setting up libfido2-1:amd64 (1.3.1-1ubuntu2) ...
+Setting up openssl (1.1.1f-1ubuntu2.10) ...
+Setting up libbsd0:amd64 (0.10.0-1) ...
+Setting up publicsuffix (20200303.0012-1) ...
+Setting up libheimbase1-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
+Setting up libgdbm6:amd64 (1.18.1-5) ...
+Setting up libxdmcp6:amd64 (1:1.1.3-0ubuntu1) ...
+Setting up libxcb1:amd64 (1.14-2) ...
+Setting up libasn1-8-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
+Setting up libedit2:amd64 (3.1-20191231-1) ...
+Setting up libhcrypto4-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
+Setting up ca-certificates (20210119~20.04.2) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+Updating certificates in /etc/ssl/certs...
+128 added, 0 removed; done.
+Setting up libwind0-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
+Setting up libgssapi-krb5-2:amd64 (1.17-6ubuntu4.1) ...
+Setting up libgdbm-compat4:amd64 (1.18.1-5) ...
+Setting up libssh-4:amd64 (0.9.3-2ubuntu2.2) ...
+Setting up libperl5.30:amd64 (5.30.0-9ubuntu0.2) ...
+Setting up libx11-6:amd64 (2:1.6.9-2ubuntu1.2) ...
+Setting up libxmuu1:amd64 (2:1.1.3-0ubuntu1) ...
+Setting up openssh-client (1:8.2p1-4ubuntu0.3) ...
+Setting up libhx509-5-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
+Setting up libxext6:amd64 (2:1.3.4-0ubuntu1) ...
+Setting up perl (5.30.0-9ubuntu0.2) ...
+Setting up xauth (1:1.1-0ubuntu1) ...
+Setting up libkrb5-26-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
+Setting up libheimntlm0-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
+Setting up liberror-perl (0.17029-1) ...
+Setting up libgssapi3-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
+Setting up libldap-2.4-2:amd64 (2.4.49+dfsg-2ubuntu1.8) ...
+Setting up libcurl3-gnutls:amd64 (7.68.0-1ubuntu2.7) ...
+Setting up git (1:2.25.1-1ubuntu3.2) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.2) ...
+Processing triggers for ca-certificates (20210119~20.04.2) ...
+Updating certificates in /etc/ssl/certs...
+0 added, 0 removed; done.
+Running hooks in /etc/ca-certificates/update.d...
+done.
+Removing intermediate container 893ed23dfb56
+ ---> e25c1c2adae6
+Step 4/7 : RUN apt-get install git
+ ---> Running in 270bdba1c0bb
+Reading package lists...
+Building dependency tree...
+Reading state information...
+git is already the newest version (1:2.25.1-1ubuntu3.2).
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+Removing intermediate container 270bdba1c0bb
+ ---> 34424e964064
+Step 5/7 : RUN git clone https://github.com/pa1-teja/ecommerce_application.git
+ ---> Running in f4f5b884af66
+Cloning into 'ecommerce_application'...
+Removing intermediate container f4f5b884af66
+ ---> 86b6f0f5e3be
+Step 6/7 : COPY target/auth-course-0.0.1-SNAPSHOT.jar auth-course-0.0.1-SNAPSHOT.jar
+ ---> a30d81b004cf
+Step 7/7 : ENTRYPOINT ["java","-jar","/auth-course-0.0.1-SNAPSHOT.jar"]
+ ---> Running in 7f64d5ac4443
+Removing intermediate container 7f64d5ac4443
+ ---> f10433004452
+Successfully built f10433004452
+
+Use 'docker scan' to run Snyk tests against images to find vulnerabilities and learn how to fix them
+tejako3@C02D705XMD6M starter_code % 
