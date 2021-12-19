@@ -49,8 +49,10 @@ public class OrderController {
 	public ResponseEntity<List<UserOrder>> getOrdersForUser(@PathVariable String username) {
 		User user = userRepository.findByUsername(username);
 		if(user == null) {
+			LOGGER.error("User Not Found");
 			return ResponseEntity.notFound().build();
 		}
+		LOGGER.info("Order Found and info sent to user successfully");
 		return ResponseEntity.ok(orderRepository.findByUser(user));
 	}
 }
